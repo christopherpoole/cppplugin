@@ -1,14 +1,15 @@
 C++ Shared Object Plugin
 ========================
 
-A template for loading objects of type T from a dynamically loaded
-library. The shared object, or plugin, must have entry and exit
-functions designated extern "C" which manage the construction
+A template for loading objects of type T from a dynamically loaded library.
+The shared object, or plugin, must have entry and exit functions designated extern "C" which manage the construction
 and destruction of T.
 
 For an advanced usage example have a look at G4Plugin.
+And for a more descriptive statment on what this is all about, have a look at the wiki page: https://github.com/christopherpoole/cppplugin/wiki/Plugins-in-CPP:-Dynamically-Linking-Shared-Objects
 
 Author:     Christopher M Poole
+
 Email:      mail@christopherpoole.net
 
 
